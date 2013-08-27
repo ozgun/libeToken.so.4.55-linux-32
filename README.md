@@ -8,8 +8,10 @@ libeToken.so.4.55 dosyası indirilip /usr/lib altına kopyalanır ve gerekli lin
 ````sh
 $ cd /usr/lib
 $ sudo ln -s libeToken.so.4.55 libetpkcs11.so
-$ sudo ln -s libeToken.so.4.55 libeTSapi.so
 $ sudo ln -s libeToken.so.4.55 libeTPkcs11.so
+$ sudo ln -s libeToken.so.4.55 libeTSapi.so
 $ sudo ln -s libeToken.so.4.55 libeToken.so
 $ sudo ln -s libeToken.so.4.55 libeToken.so.4
 ````
+
+pkiclient-full_4.55-33_i386.deb paketininin içinde bulunduğu  "Aladdin eToken PKI Client" zip arşivini http://www.isecurity.info/downloads.aspx adresinden indirebilirsiniz. Alternatif olarak da http://nicca.nic.in/html/datakey.html adresinden indirilebilir.
